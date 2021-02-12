@@ -8,8 +8,14 @@
                 <h6>No hay taras para mostrar</h6>
             </div>
             <ul class="list-group">
-                <li class="list-group-item" *ngFor="let tarea of listTareas">
+                <li class="list-group-item  d-flex justify-content between" *ngFor="let tarea of listTareas">
+                    <span>
+                        <i class="far fa-circle"></i>
+                    </span>
                     {{tarea.nombre}}
+                    <span>
+                        <i class="fas fa-trash"></i>
+                    </span>
                 </li>
               </ul>
         </div>

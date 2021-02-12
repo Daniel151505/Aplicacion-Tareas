@@ -30,4 +30,8 @@ export class TareasComponent implements OnInit {
     this.nombreTarea = ''
   }
 
+  eliminarTarea (index : number):void {
+    this.listTareas.splice(index, 1)
+  }
+
 }

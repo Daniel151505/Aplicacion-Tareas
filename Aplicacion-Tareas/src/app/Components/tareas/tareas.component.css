@@ -9,3 +9,9 @@ input {
 .cursor{
     cursor: pointer;
 }
+
+.letra {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 22px;
+    -webkit-text-stroke: 1px black;
+}

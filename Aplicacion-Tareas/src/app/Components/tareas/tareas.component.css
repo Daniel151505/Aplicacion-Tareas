@@ -15,3 +15,13 @@ input {
     font-size: 22px;
     -webkit-text-stroke: 1px black;
 }
+
+.icono {
+
+    width: 65px;
+    height: 64px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+

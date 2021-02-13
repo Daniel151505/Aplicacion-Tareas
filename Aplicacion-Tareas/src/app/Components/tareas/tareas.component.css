@@ -25,3 +25,8 @@ input {
     cursor: pointer;
 }
 
+.centrar {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+}
